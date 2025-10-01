@@ -11,7 +11,7 @@ __build_info:
     punctuation.custom: 0
     symbols: 1755934798
     symbols.custom: 0
-    wubi86.custom: 1759287489
+    wubi86.custom: 1759287582
     wubi86.schema: 1755934583
 custom_phrase:
   db_class: tabledb

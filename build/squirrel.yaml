@@ -2,7 +2,7 @@ __build_info:
   rime_version: 1.13.0
   timestamps:
     squirrel: 1737643099
-    squirrel.custom: 1759287529
+    squirrel.custom: 1759287997
 app_options:
   []
 chord_duration: 0.1
@@ -147,6 +147,38 @@ preset_color_schemes:
     hilited_text_color: 0x7fffff
     name: "明月／Luna"
     text_color: 0xa5a5a5
+  mint_dark_green:
+    author: "Mintimate <\"Mintimate's Blog\">"
+    back_color: 0x323232
+    candidate_text_color: 0xE8E8E8
+    color_space: srgb
+    comment_text_color: 0xBEBEBE
+    hilited_candidate_back_color: 0x83C81C
+    hilited_candidate_label_color: 0xEFEFEF
+    hilited_candidate_text_color: 0xEFEFEF
+    hilited_comment_text_color: 0xF4FAF8
+    hilited_text_color: 0xed9564
+    label_color: 0xB0B0B0
+    mutual_exclusive: false
+    name: "碧月青／Mint Dark Green"
+    text_color: 0x83C81C
+    translucency: true
+  mint_light_green:
+    author: "Mintimate <\"Mintimate's Blog\">"
+    back_color: 0xEFEFEF
+    candidate_text_color: 0x323232
+    color_space: srgb
+    comment_text_color: 0x878787
+    hilited_candidate_back_color: 0x7BAE4F
+    hilited_candidate_label_color: 0xEFEFEF
+    hilited_candidate_text_color: 0xFFFFFF
+    hilited_comment_text_color: 0xDFF0EE
+    hilited_text_color: 0xed9564
+    label_color: 0x323232
+    mutual_exclusive: false
+    name: "碧皓青／Mint Light Green"
+    text_color: 0x7BAE4F
+    translucency: true
   mojave_dark:
     author: "xiehuc <xiehuc@gmail.com>"
     back_color: 0x252320
@@ -273,7 +305,8 @@ style:
   border_width: "-2"
   candidate_format: "[label]. [candidate] [comment]"
   candidate_list_layout: linear
-  color_scheme: native
+  color_scheme: mint_light_green
+  color_scheme_dark: mint_dark_green
   corner_radius: 7
   font_face: Avenir
   font_point: 16
