@@ -2,7 +2,7 @@ patch:
   # inline_preedit: true
 
   speller/auto_select: false
-  # switches/@0/reset: 1
+  switches/@0/reset: 0
 
   translator/enable_encoder: false
   translator/enable_commit_history: false
