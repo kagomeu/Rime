@@ -1,0 +1,57 @@
+# Rime dictionary: 人物 未完成
+# encoding: utf-8
+#
+# Original table author
+# kc9vu <outer.clefs_0w@icloud.com>
+
+---
+name: 人物
+version: "0.1"
+sort: by_weight
+columns:
+  - text
+  - code
+encoder:
+  exclude_patterns:
+    - '^z.*$'
+use_preset_vocabulary: false
+...
+
+## 作家
+刘慈欣	yurq
+
+
+## 配音演员
+蒋丽	augm
+陆敏悦	btnu
+金娜	qqvv
+林敏	sstx
+
+
+## 歌手
+泠鸢	iwaq
+宋雨琦	pfgd
+银临	qvjt
+
+
+## 演员
+胡歌	desk
+
+
+## 知名网友
+花园花玲	alag
+花玲	awgw
+大司马	dncn
+小温	ihij
+泠鸢	iwaq
+团团	lflf
+柯团	sslf
+童猪	ujqt
+
+
+## 其他
+王立群	guvt
+易中天	jkgd
+罗翔	lqud
+
+

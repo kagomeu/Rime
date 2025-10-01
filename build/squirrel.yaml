@@ -2,54 +2,10 @@ __build_info:
   rime_version: 1.13.0
   timestamps:
     squirrel: 1737643099
-    squirrel.custom: 0
-app_options:
-  co.zeit.hyper:
-    ascii_mode: true
-  com.alfredapp.Alfred:
-    ascii_mode: true
-  com.apple.Spotlight:
-    ascii_mode: true
-  com.apple.Terminal:
-    ascii_mode: true
-    no_inline: true
-  com.apple.dt.Xcode:
-    ascii_mode: true
-  com.barebones.textwrangler:
-    ascii_mode: true
-  com.blacktree.Quicksilver:
-    ascii_mode: true
-  com.github.atom:
-    ascii_mode: true
-  com.google.Chrome:
-    inline: true
-  com.googlecode.iterm2:
-    ascii_mode: true
-    no_inline: true
-  com.macromates.TextMate.preview:
-    ascii_mode: true
-  com.microsoft.VSCode:
-    ascii_mode: true
-  com.microsoft.edgemac:
-    inline: true
-  "com.runningwithcrayons.Alfred-2":
-    ascii_mode: true
-  com.sublimetext.2:
-    ascii_mode: true
-  org.gnu.Aquamacs:
-    ascii_mode: true
-  org.gnu.Emacs:
-    ascii_mode: true
-    no_inline: true
-  org.vim.MacVim:
-    ascii_mode: true
-    no_inline: true
-    vim_mode: true
-  ru.keepcoder.Telegram:
-    inline: true
+    squirrel.custom: 1759286042
 chord_duration: 0.1
 config_version: 1.0
-keyboard_layout: last
+keyboard_layout: USExtendend
 preset_color_schemes:
   apathy:
     author: "LIANG Hai"
@@ -309,12 +265,12 @@ preset_color_schemes:
     hilited_text_color: 0xfecb96
     name: "星際我爭霸／StarCraft"
     text_color: 0xccaa88
-show_notifications_when: appropriate
+show_notifications_when: never
 style:
   border_height: "-2"
   border_width: "-2"
   candidate_format: "[label]. [candidate] [comment]"
-  candidate_list_layout: stacked
+  candidate_list_layout: linear
   color_scheme: native
   corner_radius: 7
   font_face: Avenir
@@ -329,4 +285,4 @@ style:
   show_paging: false
   spacing: 8
   text_orientation: horizontal
-  translucency: false
+  translucency: true

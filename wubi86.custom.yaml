@@ -1,0 +1,31 @@
+patch:
+  # inline_preedit: true
+
+  speller:
+    auto_select: false
+  switches/@0/reset: 0
+
+  translator/enable_encoder: false
+  translator/enable_commit_history: false
+  translator/enable_sentence: false
+
+  translator/dictionary: my_wubi
+
+  "engine/translators/+":
+    # - lua_translator@time_translator
+    # - lua_translator@date_translator
+    # - lua_translator@datetime_translator
+    # - lua_translator@week_translator
+    - table_translator@custom_phrase
+
+  custom_phrase:
+    dictionary: ""
+    user_dict: custom_phrase
+    db_class: tabledb
+    enable_completion: true
+    enable_sentence: false
+    initial_quality: 1
+
+# __patch:
+#   - patch/+:
+#     __include: emoji_suggestion:/patch

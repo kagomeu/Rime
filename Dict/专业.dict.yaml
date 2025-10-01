@@ -1,0 +1,66 @@
+# Rime dictionary: 专业 未完成
+# encoding: utf-8
+#
+# Original table author
+# kc9vu <outer.clefs_0w@icloud.com>
+
+---
+name: 专业
+version: "0.1"
+sort: by_weight
+columns:
+  - text
+  - code
+encoder:
+  exclude_patterns:
+    - '^z.*$'
+use_preset_vocabulary: false
+...
+
+## 物理
+蓝移	ajtq
+三体	dgws
+类星体	ojws
+多普勒	quaf
+移速	tqgk
+红移	xatq
+
+
+## 计算机
+卡顿	hhgb
+核显	syjo
+弹窗	xupw
+
+散列	aegq
+协程	fltk
+跳转	khlf
+转义	lfyq
+字符串	ptkk
+实机	pusm
+安卓	pvhj
+多进程	qftk
+解释器	qtkk
+多线程	qxtk
+报错	rbqa
+爬取	rhbc
+迭代	rwwa
+桥接	stru
+复用	tjet
+装饰器	uqkk
+公钥	wcqe
+编译器	xykk
+
+
+## 媒体
+碟号	dakg
+音轨	ujlv
+
+
+## 其他
+隐式	bqaa
+能效	ceuq
+异或	naak
+补全	puwg
+标量	sfjg
+
+

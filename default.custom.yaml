@@ -1,0 +1,19 @@
+patch:
+  schema_list:
+    - { schema: wubi86 }
+  "menu/page_size": 7
+  "switcher/hotkeys":
+    - "F4"
+  ascii_composer/switche_key:
+    Caps_Lock: noop
+    Shift_L: noop
+    Shift_R: noop
+    Control_L: noop
+    Control_R: noop
+  key_binder:
+    bindings:
+      # - { when: always, accept: "Control+space", toggle: ascii_mode }
+      - { when: paging, accept: "Shift+Tab", send: Page_Up }
+      - { when: has_menu, accept: "Tab", send: Page_Down }
+      - { when: always, accept: "Control+period", toggle: ascii_punct }
+      - { when: always, accept: "Shift+space", toggle: full_shape }

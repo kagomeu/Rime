@@ -27,5 +27,6 @@
     "**/Thumbs.db": true,
     "*.userdb/": true,
     "build/*.bin": true,
-  }
+  },
+  "editor.tabSize": 8
 }

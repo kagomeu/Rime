@@ -1,0 +1,68 @@
+# Rime dictionary: my dict
+# encoding: utf-8
+#
+# Original table author
+# kc9vu <outer.clefs_0w@icloud.com>
+
+---
+name: my_wubi
+version: "0.1"
+sort: by_weight
+columns:
+  - text
+  - code
+  - weight
+encoder:
+  exclude_patterns:
+    - '^z.*$'
+use_preset_vocabulary: false
+import_tables:
+  - wubi86
+  - wubi86.basiccmpl
+  - wubi86.extacmpl
+  - wubi86.extbcmpl
+  - wubi86.extc
+  - wubi86.extccmpl
+  - wubi86.extd
+  - wubi86.exte
+  - wubi86.extf
+  - wubi86.extg
+  - wubi86.exth
+  - "Dict/专业"
+  - "Dict/人物"
+  - "Dict/品牌"
+  - "Dict/平台服务"
+  - "Dict/多媒体"
+  - "Dict/星露谷"
+  - "Dict/原神"
+  - "Dict/星穹铁道"
+...
+
+不是	gijg
+不要	gisv
+不知道	gtut
+大人	ddww
+小人	ihww
+圣杯	cfsg
+东南西北	afsu
+海克斯	idad
+魔神	yspy
+泛用	itet
+崩坏	mefg
+山楂树	mssc
+黑丝	lfxx
+白丝	rrxx
+电子竞技	jbur
+电竞	jnuk
+吃鸡	ktcq
+适配	tdsg
+击杀	fmqs
+饭堂	qnip
+声优	fnwd
+暴击	jafm
+工坊	aafy
+合集	wgwy
+传言	wfyy
+鱼竿	qgtf
+双修	ccwh
+彩蛋	esnh

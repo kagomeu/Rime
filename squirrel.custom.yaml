@@ -1,0 +1,13 @@
+patch:
+  app_options:
+
+  show_notifications_when: never
+
+  keyboard_layout: USExtendend
+
+  style/candidate_list_layout: linear
+  style/text_orientation: horizontal
+  style/inline_preedit: true
+  style/translucency: true
+  # style/corner_radius: 15
+  style/color_scheme: native

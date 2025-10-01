@@ -1,0 +1,29 @@
+# Rime dictionary: 星穹铁道 未完成
+# encoding: utf-8
+#
+# Original table author
+# kc9vu <outer.clefs_0w@icloud.com>
+
+---
+name: 星穹铁道
+version: "0.1"
+sort: by_weight
+columns:
+  - text
+  - code
+encoder:
+  exclude_patterns:
+    - '^z.*$'
+use_preset_vocabulary: false
+...
+
+花火	awoo
+阿格莱雅	bsaa
+三月七	deag
+卡芙卡	hahh
+流萤	iyap
+遐蝶	nhja
+银狼	qvqt
+知更鸟	tgqy
+
+
