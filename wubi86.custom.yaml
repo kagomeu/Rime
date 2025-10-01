@@ -1,9 +1,8 @@
 patch:
   # inline_preedit: true
 
-  speller:
-    auto_select: false
-  switches/@0/reset: 0
+  speller/auto_select: false
+  # switches/@0/reset: 1
 
   translator/enable_encoder: false
   translator/enable_commit_history: false
@@ -11,9 +10,12 @@ patch:
 
   translator/dictionary: my_wubi
 
-  "engine/translators/+":
-    # - lua_translator@time_translator
-    # - lua_translator@date_translator
+  # engine/filters/+:
+  #   - uniquifier
+
+  engine/translators/+:
+    - lua_translator@date_translator
+    - lua_translator@time_translator
     # - lua_translator@datetime_translator
     # - lua_translator@week_translator
     - table_translator@custom_phrase
@@ -26,6 +28,8 @@ patch:
     enable_sentence: false
     initial_quality: 1
 
-# __patch:
-#   - patch/+:
-#     __include: emoji_suggestion:/patch
+__patch:
+# Rx: emoji:customize:schema=wubi86 {
+  - patch/+:
+      __include: emoji_suggestion:/patch
+# }

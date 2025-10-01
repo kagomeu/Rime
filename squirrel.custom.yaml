@@ -1,5 +1,6 @@
 patch:
   app_options:
+   -
 
   show_notifications_when: never
 

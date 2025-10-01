@@ -1,5 +1,7 @@
 var:
-  last_build_time: 1759286047
+  last_build_time: 1759287532
+  option:
+    ascii_punct: true
   previously_selected_schema: stroke
   schema_access_time:
     stroke: 1759154941

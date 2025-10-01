@@ -2,7 +2,9 @@ __build_info:
   rime_version: 1.13.0
   timestamps:
     squirrel: 1737643099
-    squirrel.custom: 1759286042
+    squirrel.custom: 1759287529
+app_options:
+  []
 chord_duration: 0.1
 config_version: 1.0
 keyboard_layout: USExtendend

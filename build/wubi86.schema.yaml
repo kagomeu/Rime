@@ -3,13 +3,15 @@ __build_info:
   timestamps:
     default: 1755934798
     default.custom: 1759285137
+    emoji_suggestion: 1759287130
+    emoji_suggestion.custom: 0
     key_bindings: 1755934798
     key_bindings.custom: 0
     punctuation: 1755934798
     punctuation.custom: 0
     symbols: 1755934798
     symbols.custom: 0
-    wubi86.custom: 1759285112
+    wubi86.custom: 1759287489
     wubi86.schema: 1755934583
 custom_phrase:
   db_class: tabledb
@@ -18,7 +20,14 @@ custom_phrase:
   enable_sentence: false
   initial_quality: 1
   user_dict: custom_phrase
+emoji_suggestion:
+  inherit_comment: false
+  opencc_config: emoji.json
+  option_name: emoji_suggestion
+  tips: none
 engine:
+  filters:
+    - "simplifier@emoji_suggestion"
   processors:
     - ascii_composer
     - recognizer
@@ -38,6 +47,8 @@ engine:
     - punct_translator
     - reverse_lookup_translator
     - table_translator
+    - "lua_translator@date_translator"
+    - "lua_translator@time_translator"
     - "table_translator@custom_phrase"
 key_binder:
   bindings:
@@ -351,6 +362,7 @@ schema:
   version: 0.21
 speller:
   auto_select: false
+  delimiter: " ;'"
 switches:
   - name: ascii_mode
     reset: 0
@@ -361,6 +373,9 @@ switches:
     states: ["常用", "增廣"]
   - name: ascii_punct
     states: ["。，", "．，"]
+  - name: emoji_suggestion
+    reset: 1
+    states: ["🈚︎", "🈶️"]
 translator:
   dictionary: my_wubi
   disable_user_dict_for_patterns:
