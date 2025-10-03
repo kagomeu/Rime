@@ -1,6 +1,11 @@
 patch:
   app_options:
-   -
+    - Code:
+        ascii_punct: true
+    - Warp:
+        ascii_punct: true
+    - Zed:
+        ascii_punct: true
 
   show_notifications_when: never
 
