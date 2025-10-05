@@ -3,6 +3,7 @@ patch:
 
   speller/auto_select: false
   switches/@0/reset: 0
+  switches/@3/reset: 0
 
   translator/enable_encoder: false
   translator/enable_commit_history: false
