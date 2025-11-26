@@ -17,6 +17,11 @@ encoder:
 use_preset_vocabulary: false
 ...
 
+## 数学
+素数	gxov
+标量	sfjg
+
+
 ## 物理
 蓝移	ajtq
 三体	dgws
@@ -61,6 +66,5 @@ use_preset_vocabulary: false
 能效	ceuq
 异或	naak
 补全	puwg
-标量	sfjg
 
 

@@ -28,6 +28,7 @@ import_tables:
   - wubi86.extf
   - wubi86.extg
   - wubi86.exth
+  - "Dict/政务"
   - "Dict/专业"
   - "Dict/人物"
   - "Dict/品牌"
