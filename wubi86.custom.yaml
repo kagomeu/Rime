@@ -2,8 +2,8 @@ patch:
   # inline_preedit: true
 
   speller/auto_select: false
-  switches/@0/reset: 0
-  switches/@3/reset: 0
+  # switches/@0/reset: 0
+  # switches/@3/reset: 0
 
   translator/enable_encoder: false
   translator/enable_commit_history: false
@@ -20,6 +20,17 @@ patch:
     # - lua_translator@datetime_translator
     # - lua_translator@week_translator
     - table_translator@custom_phrase
+
+  engine/processors:
+    # 禁用英文切换
+    # - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
 
   custom_phrase:
     dictionary: ""
