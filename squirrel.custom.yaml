@@ -1,10 +1,13 @@
 patch:
   app_options:
-    - Code:
+    - com.microsoft.VSCode:
         ascii_punct: true
-    - Warp:
+    - dev.warp.Warp-Stablearp:
         ascii_punct: true
-    - Zed:
+    - dev.zed.Zed:
+        ascii_punct: true
+        vim_mode: true
+    - notion.id:
         ascii_punct: true
 
   show_notifications_when: never
