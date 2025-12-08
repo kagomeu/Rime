@@ -30,8 +30,8 @@ patch:
     - name: extended_charset
       states: [ 常用, 增廣 ]
     - name: ascii_punct
-      reset: 1
-      states: [ 。，, ．， ]
+      reset: 0
+      states: [ 。，, ., ]
 
   engine/processors:
     # 禁用英文切换
